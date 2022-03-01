@@ -67,7 +67,7 @@ your@pc:~$ rails s
 How to run rspec
 
 ```Shell
-your@pc:~$ rspec .
+your@pc:~$ bundle exec rspec .
 ```
 
 ### API request.
