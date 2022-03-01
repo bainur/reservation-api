@@ -67,7 +67,7 @@ your@pc:~$ rails s
 ### API request.
 #### Postman collection.
 
-**Postman File could be found on https://github.com/bainur/reservation-api/blob/master/public/Insomnia_reservation_api.json and import to your local Postman.**
+**Postman File could be found on https://github.com/bainur/reservation-api/blob/master/public/reservation-api.postman_collection.json and import to your local Postman.**
 
 API REQUEST are using json. 
 API request should have reservation code and guest email parameters on the body as mandatory parameters
