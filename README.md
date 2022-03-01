@@ -64,6 +64,12 @@ Start server
 your@pc:~$ rails s
 ```
 
+How to run rspec
+
+```Shell
+your@pc:~$ rspec .
+```
+
 ### API request.
 #### Postman collection.
 
