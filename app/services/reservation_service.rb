@@ -2,7 +2,7 @@
 
 # Reservation service
 class ReservationService
-  attr_accessor :reservation, :errors
+  attr_accessor :reservation, :errors, :is_create
 
   def initialize(params)
     @parameters = params
@@ -13,6 +13,7 @@ class ReservationService
     Reservation.transaction do
       guest = build_guest
       reservation = build_reservation(guest)
+      self.is_create = guest.new_record? || reservation.new_record?
       return reservation if reservation.save && guest.save
 
       self.errors = error_messages_handler(reservation, guest)

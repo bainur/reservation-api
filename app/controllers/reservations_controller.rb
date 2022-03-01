@@ -5,7 +5,12 @@ class ReservationsController < ApplicationController
     if reservation_service.save
       render json: {
         data: reservation_service.reservation,
-        status: 'success'
+        status: 'success',
+        message: if reservation_service.is_create
+                   'Successfully created'
+                 else
+                   'Successfully updated'
+                 end
       }, status: :created
     else
       render json: {
