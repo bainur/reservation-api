@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reservation_code: MyString
+  start_date: 2022-02-28
+  end_date: 2022-02-28
+  nights: 1
+  guests: 1
+  adults: 1
+  children: 1
+  infants: 1
+  status: MyString
+  currency: MyString
+  payout_price: 1.5
+  security_price: 1.5
+  total_price: 1.5
+
+two:
+  reservation_code: MyString
+  start_date: 2022-02-28
+  end_date: 2022-02-28
+  nights: 1
+  guests: 1
+  adults: 1
+  children: 1
+  infants: 1
+  status: MyString
+  currency: MyString
+  payout_price: 1.5
+  security_price: 1.5
+  total_price: 1.5
